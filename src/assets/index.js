@@ -25,6 +25,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import njweb from "./njweb.png";
+import dradv from "./dradventurer.png";
+import drgp from "./drgp.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,8 +36,8 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
-  mobile,
+  creator,dradv,drgp,
+  mobile,njweb,
   web,
   github,
   menu,

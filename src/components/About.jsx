@@ -11,19 +11,19 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full green-pink-gradient p-[1px] rounded-[20px]  shadow-card'
     >
       <div
         options={{
           max: 45,
           scale: 1,
-          speed: 450,
+          speed: 50,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className=' rounded-[15px] px-5 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
-          alt='web-development'
+          alt='web-design'
           className='w-16 h-16 object-contain'
         />
 
@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        Welcome to my little corner of the internet! I'm thrilled to have you here.
+         My name is N.Jagganraj, and I'm a Web Designer. 
+         I believe that good design can change the world, 
+         and I'm passionate about creating beautiful, functional, and effective designs 
+         that make a difference.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -43,8 +43,7 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Logo &nbsp;
-            <span className='sm:block hidden'> | Company Name</span>
+            <span className='sm:block hidden'> NJWEBDESIGNING</span>
           </p>
         </Link>
 
